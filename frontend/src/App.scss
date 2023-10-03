@@ -1,0 +1,249 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background-color: rgb(227, 220, 211);
+}
+
+.login-box {
+    max-width: 450px;
+    padding: 25px 25px;
+    margin: 75px auto;
+    background-color: #fff
+}
+
+
+.nav-link:hover {
+    color: #718093;
+}
+
+.nav-link {
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+}
+
+.navbar {
+
+    padding-inline-start: 10;
+    position: sticky;
+    z-index: 100;
+    background-color: #2f3640;
+    width: auto;
+}
+
+.nav-home {
+
+    color: #c23616;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.nav-home:hover {
+    color: #718093;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-item:hover {
+    background-color: #fff;
+    color: #2f3640;
+}
+
+.dropdown-item {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 3px;
+    padding: auto;
+    text-transform: capitalize;
+
+}
+
+.dropdown-menu.show {
+    display: contents;
+}
+
+.my-col {
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2f3640;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.my-title {
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2f3640;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.book-data {
+    margin-left: 50px;
+}
+
+.image-class {
+    margin-left: 40px;
+}
+
+.my-btn {
+    margin-left: 40px;
+}
+
+.book-price::before {
+    content: "$  ";
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* To push left-menu and nav to opposite ends */
+    align-items: center;
+    /* Vertically center the content */
+    background-color: #718093;
+    /* Background color for the header */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    color: white;
+    /* Text color */
+}
+
+.right-manu {
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px 10px;
+    display: flex;
+
+}
+
+.nav-btn:hover {
+    background-color: #2f3640;
+    color: #c23616;
+}
+
+.nav-btn {
+    background-color: #2f3640;
+    margin-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.add-btn {
+    margin-left: 20px;
+}
+
+.inc-dec {
+    margin-left: 20px;
+
+}
+
+.btn-inc {
+    margin-left: 10px;
+
+}
+
+.btn-dec {
+    margin-right: 10px;
+}
+
+.action-btn {
+    border: none;
+
+}
+
+.btn-column {
+    background-color: rgb(227, 220, 211) !important;
+}
+
+.shipping-form {
+    width: 30%;
+}
+
+.form-control-profile {
+    width: 50%;
+}
+
+.alert {
+    width: 30%;
+}
+
+.my-row {
+    width: 30%;
+}
+.custom-link{
+    color: darkblue;
+    font-weight: 500;
+}
+.custom-link:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+
+@media(max-width:768px) {
+    .navbar {
+        padding-inline-start: 5;
+    }
+
+    .nav-home {
+        font-size: 16px;
+    }
+
+    .right-manu {
+        font-size: 14px;
+        padding: 5px 5px;
+    }
+
+    .book-data {
+        margin-left: 30px;
+    }
+
+    .image-class {
+        margin-left: 20px;
+    }
+
+    .my-btn {
+        margin-left: 20px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+    .container{
+        --bs-gutter-x: 0;
+    }
+    .navbar-toggler-icon{
+        background-color: #718093;
+    }
+    .my-title {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .my-row {
+        width: 60%;
+    }
+    .header{
+        padding: 10px 10px;
+    }
+
+    .form-control{
+        width: 200%;
+    }
+    .form-control-profile{
+        width: 90%
+    }
+}
